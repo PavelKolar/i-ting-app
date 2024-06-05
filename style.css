@@ -1,0 +1,89 @@
+
+body {
+  font-family: 'Cinzel', Georgia, serif;
+  border: 0;
+}
+
+#header {
+  color:rgb(30, 30, 31);
+  font-size: 400%;
+  font-weight: 600;
+}
+
+.column {
+  text-align: center;
+  background-color: transparent;
+  height: 500px;
+  min-width: 300px;
+}
+  
+
+.button {
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#050505;
+	font-family:Georgia;
+	font-size:26px;
+	font-weight:bold;
+	padding:9px 24px;
+	text-decoration:none;
+}
+.button:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+.button:disabled {
+	position:relative;
+	top:1px;
+  color:darkgray;
+  cursor: not-allowed;
+}
+
+#displayed_coin {
+  display:inline;
+  padding: 5px;
+}
+
+#display_result{
+  padding: 20px;
+}
+
+#display_container {
+  margin: auto;
+  display: block;
+  padding: 5px;
+}
+
+#throw_count {
+  margin: 0px;
+  font-size: 130%;
+}
+#throw_count_again {
+  font-size: 130%;
+  color:blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#explanation_number, #explanation_number_trans {
+  font-size: 130%;
+  color: gray;
+  padding: 20px;
+}
+
+#explanation_judgment, #explanation_judgment_trans {
+  font-size: 110%;
+  color: red;
+}
+
+#explanation_image, #explanation_image_trans {
+  font-size: 110%;
+}
